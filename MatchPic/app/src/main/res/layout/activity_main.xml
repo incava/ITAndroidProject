@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_start"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/iv_animal3"
+        app:layout_constraintEnd_toStartOf="@+id/iv_how_to_play"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_how_to_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_howto"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_start"
+        app:layout_constraintTop_toTopOf="@+id/iv_start" />
+
+    <ImageView
+        android:id="@+id/iv_animal1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/a_monkey"
+        app:layout_constraintBottom_toTopOf="@+id/iv_animal4"
+        app:layout_constraintEnd_toStartOf="@+id/iv_animal5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_animal4"
+        app:layout_constraintTop_toBottomOf="@+id/iv_animal3" />
+
+    <ImageView
+        android:id="@+id/iv_animal2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/a_monkey"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_animal3"
+        app:layout_constraintEnd_toEndOf="@+id/iv_animal5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/iv_animal5"
+        app:layout_constraintTop_toTopOf="@+id/iv_animal3" />
+
+    <ImageView
+        android:id="@+id/iv_animal3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/a_monkey"
+        app:layout_constraintBottom_toTopOf="@+id/iv_animal1"
+        app:layout_constraintEnd_toEndOf="@+id/iv_animal4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/iv_animal4"
+        app:layout_constraintTop_toBottomOf="@+id/iv_start" />
+
+    <ImageView
+        android:id="@+id/iv_animal4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/a_monkey"
+        app:layout_constraintBottom_toTopOf="@+id/iv_board"
+        app:layout_constraintEnd_toStartOf="@+id/iv_animal1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_animal1" />
+
+    <ImageView
+        android:id="@+id/iv_animal5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/a_monkey"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_animal4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_animal1"
+        app:layout_constraintTop_toTopOf="@+id/iv_animal4" />
+
+    <ImageView
+        android:id="@+id/iv_board"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/q_board"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/iv_animal1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/iv_animal1"
+        app:layout_constraintTop_toBottomOf="@+id/iv_animal4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bnv_aaa" android:title="aaa" android:icon="@drawable/ic_action_home"/>
+    <item android:id="@+id/bnv_bbb" android:title="bbb" android:icon="@drawable/ic_action_heart"/>
+    <item android:id="@+id/bnv_ccc" android:title="ccc" android:icon="@drawable/ic_action_account"/>
+
+
+</menu>

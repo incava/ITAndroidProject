@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<movies xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <no>1</no>
+    <title>지구가 멈추는 날</title>
+    <genre>SF, ACTION, ADVENTURE</genre>
+</item>
+    <item>
+        <no>2</no>
+        <title>AVATAR</title>
+        <genre>ROMANCE, ADVENTURE</genre>
+    </item>
+    <item>
+        <no>3</no>
+        <title>Nightmare</title>
+        <genre>HORROR, THRILLER</genre>
+    </item>
+</movies>
