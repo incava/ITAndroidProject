@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/cb01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Apple" />
+    <CheckBox
+        android:id="@+id/cb02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banana" />
+    <CheckBox
+        android:id="@+id/cb03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orange" />
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="학인"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result"
+        android:textStyle="bold"
+        android:padding="8dp"
+        />
+    <ToggleButton
+        android:id="@+id/tb_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="눌림"
+        android:textOff="안눌림"
+        />
+
+</LinearLayout>
