@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         btnGrid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                GridLayoutManager layoutManager= new GridLayoutManager(MainActivity.this, 2); //2칸짜리 격자 배치
+                GridLayoutManager layoutManager= new GridLayoutManager(MainActivity.this, 3); //2칸짜리 격자 배치
                 recyclerView.setLayoutManager(layoutManager);
             }
         });
