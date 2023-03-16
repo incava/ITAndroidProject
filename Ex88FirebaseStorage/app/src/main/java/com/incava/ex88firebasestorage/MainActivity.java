@@ -60,13 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, taskSnapshot.toString(), Toast.LENGTH_SHORT).show();
             }
         });
-
-
         //Firebase Storage에 파일 업로드 하기.
         //파이어베이스 저장소 관리 객체 소환.
-
-
-
     }
 
     Uri imgUri = null;
@@ -88,7 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 Glide.with(this).load(uri).into(binding.iv);
             });
         }
-
     }
 
 }
