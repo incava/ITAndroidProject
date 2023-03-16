@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355897372904",
+    "project_id": "ex88firebasestorageincava",
+    "storage_bucket": "ex88firebasestorageincava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355897372904:android:7ac6853eb1ecd17bda195d",
+        "android_client_info": {
+          "package_name": "com.incava.ex88firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355897372904-dae4fr2t4nc7vddog0uiplmr1ptr6iug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi_AY6B-SzNAaH-JxM0ZMaoJbD6KDzOCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355897372904-dae4fr2t4nc7vddog0uiplmr1ptr6iug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
